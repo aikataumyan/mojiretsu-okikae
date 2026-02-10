@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>シンプル置換ツール</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h2>シンプル文字列置換ツール</h2>
+
+  <p>元になる文章：</p>
+  <textarea id="inputText" placeholder="ここに文章を入力してください..."></textarea>
+
+  <div class="controls">
+    <input type="text" id="findText" placeholder="置換したい文字">
+    <span>を</span>
+    <input type="text" id="replaceText" placeholder="置き換え後の文字">
+    <button id="replaceBtn">実行！</button>
+  </div>
+
+  <p>結果：</p>
+  <textarea id="outputText" readonly placeholder="結果がここに表示されます"></textarea>
+
+  <script src="replace.js"></script>
+</body>
+</html>
